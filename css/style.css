@@ -88,3 +88,20 @@ img {
 .centrar-texto {
     text-align: center;
 }
+
+/* HEADER */
+
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover; /*para que tome todo el espacio disponible*/
+    background-repeat: no-repeat; /*para que no se repita la imagen varias veces*/
+    background-position: center center; /*esto para centrar la imagen cuando esta se inspecciona primer valor horizontalmente y segundo valor verticalmente*/
+}
+
+.header__texto {
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem;
+}
+
